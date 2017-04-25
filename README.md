@@ -1,6 +1,6 @@
 # npmtest-gulp-jshint
 
-#### test coverage for  [gulp-jshint (v2.0.4)](http://github.com/spalger/gulp-jshint)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-jshint.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-jshint) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-jshint.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-jshint)
+#### basic test coverage for  [gulp-jshint (v2.0.4)](http://github.com/spalger/gulp-jshint)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-jshint.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-jshint) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-jshint.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-jshint)
 
 #### JSHint plugin for gulp
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-gulp-jshint/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-jshint/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-gulp-jshint/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-jshint/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-jshint/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-jshint/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-gulp-jshint/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-gulp-jshint/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-jshint/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-jshint/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-gulp-jshint/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-gulp-jshint/build/coverage.html/index.html)
 
@@ -99,7 +99,8 @@
     "scripts": {
         "test": "gulp test"
     },
-    "version": "2.0.4"
+    "version": "2.0.4",
+    "bin": {}
 }
 ```
 
